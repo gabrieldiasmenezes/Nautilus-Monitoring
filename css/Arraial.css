@@ -1,0 +1,810 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, #043F81, #05336F,#01214F);
+    
+}
+/* Parte da logo */
+.logo{
+    position: absolute;
+    display: flex;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 125%;
+    text-align: center;
+    
+    
+    background-size: 1744px 842px;
+    
+}
+.otherPg{
+    border-radius: 5%;
+    height: 5%;
+    width: 70%;
+    color:white;
+    list-style: none;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    display: flex;
+    top: 2%;
+    left: 20%;
+}
+
+.links{
+    position: absolute;
+    top: 30%;
+    color: white;
+    font-family: 'Gotu';
+    font-size: 1em;
+}
+
+.a1{
+    color: white;
+    text-decoration-line: none;
+    padding: 20px;
+}
+.a1:hover{
+    color: #00BCCD;
+}
+.a2{
+    background-color: transparent;
+    color: white;
+    text-decoration-line: none;
+    padding: 10px;
+    border-style: none;
+}
+
+.a2:hover{
+    color: #00BCCD;
+}
+.a3{
+    color: white;
+    text-decoration-line: none;
+    padding: 10px;
+}
+.a3:hover{
+    color: #00BCCD;
+}
+.a4{
+    color: white;
+    text-decoration-line: none;
+    padding: 10px;
+}
+.a4:hover{
+    color: #00BCCD;
+}
+.a5{
+    color: white;
+    text-decoration-line: none;
+    padding: 10px;
+}
+.a5:hover{
+    color: #00BCCD;
+}
+
+
+.n{
+    position:absolute;
+    left: 25%;
+    top: 10%;
+    font-size: 5em;
+    color: #00BCCD;
+    font-family: 'Gotu';
+}
+.m{
+    position: absolute;
+    left: 57%;
+    top: 10%;
+    font-size: 5em;
+    color: white;
+    font-family: 'Gotu';
+}
+
+.imgs{
+    position: absolute;
+    display: flex;
+    top: 30%;
+    left: 30%;
+}
+/* Conteudo */
+.pt2{
+    position: absolute;
+    display: flex;
+    top: 150%;
+    width: 100%;  
+    height: 100%;
+    
+}
+#pt2{
+    position: absolute;
+    display: flex;
+    top:140%;
+}
+.tit2{
+    position: absolute;
+    font-size: 2em ;
+    left: 40%;
+    color: white;
+    font-family: 'Gotu';
+}
+.txt2{
+    position: absolute;
+    font-size: 1.5em ;
+    width: 70%;
+    left: 13%;
+    top: 20%;
+    text-align: center;
+    color: white;
+    font-family: 'Gotu';
+}
+.ag1{
+position: absolute;
+background: url(agua-viva.png);
+mix-blend-mode: lighten;
+transform: rotate(30.29deg);
+
+}
+.ag2{
+position: absolute;
+left: 70%;
+top: 40%;
+background: url(agua-viva.png);
+mix-blend-mode: lighten;
+transform: rotate(-3.29deg);
+}
+/* Local */
+.pt3{
+    position: absolute;
+    display: flex;
+    top: 250%;
+    width: 100%;  
+    height: 100%;
+    
+}
+#pt3{
+    position: absolute;
+    display: flex;
+    top:140%;
+}
+.tit3{
+    position: absolute;
+    font-size: 2em ;
+    left: 42%;
+    color: white;
+    font-family: 'Gotu';
+}
+.txt3{
+    position: absolute;
+    font-size: 1.5em ;
+    width: 40%;
+    left: 53%;
+    top: 45%;
+    text-align: center;
+    color: white;
+    font-family: 'Gotu';
+}
+.mapa{
+    position: absolute;
+    display: flex;
+    left: 7%;
+    top: 30%;
+}
+.px1{
+position: absolute;
+top: 45%;
+background: url(agua-viva.png);
+mix-blend-mode: lighten;
+transform: rotate(-18.74deg);
+
+}
+.px2{
+position: absolute;
+left: 70%;
+top: 40%;
+background: url(agua-viva.png);
+mix-blend-mode: lighten;
+transform: rotate(-18.74deg);
+}
+/* Especies */
+.pt4{
+    position: absolute;
+    display: flex;
+    top: 370%;
+    width: 100%;  
+    height: 100%;
+    
+}
+#pt4{
+    position: absolute;
+    display: flex;
+    top:140%;
+}
+
+.es{
+    position:absolute;
+    left: 35%;
+    
+    font-size: 2em;
+    color: white;
+    font-family: 'Gotu';
+}
+.en{
+    position: absolute;
+    left: 47%;
+    font-size: 2em;
+    color: #00BCCD;
+    font-family: 'Gotu';
+}
+.txt4{
+    position: absolute;
+    font-size: 1.5em ;
+    width: 40%;
+    left: 53%;
+    top: 30%;
+    text-align: center;
+    color: white;
+    font-family: 'Gotu';
+}
+#list{
+    position: absolute;
+    font-size: 1.5em ;
+    list-style: none;
+    width: 40%;
+    left: 53%;
+    top: 43%;
+    text-align: center;
+    color: white;
+    font-family: 'Gotu';
+}
+#animals{
+    position: relative;
+    display: flex;
+    left: 7%;
+    top: 30%;
+}
+.clique{
+    position: absolute;
+    left: 10%;
+    top: 85%;
+    width: 30%;
+    text-align: center;
+    color: white;
+    font-family: 'Gotu';
+}
+.cm{
+ position: absolute;
+ top: 50%;
+ left: 20%;
+ background: url(agua-viva.png);
+ mix-blend-mode: lighten;
+ transform: rotate(28.49deg);
+
+}
+#item1:hover{
+    color: #00BCCD;
+}
+#item2:hover{
+    color: #00BCCD;
+}
+#item3:hover{
+    color: #00BCCD;
+}
+#item4:hover{
+    color: #00BCCD;
+}
+#item5:hover{
+    color: #00BCCD;
+}
+#item6:hover{
+    color: #00BCCD;
+}
+#item7:hover{
+    color: #00BCCD;
+}
+#item8:hover{
+    color: #00BCCD;
+}
+#item9:hover{
+    color: #00BCCD;
+}
+#item10:hover{
+    color: #00BCCD;
+}
+/* Extincao */
+.pt5{
+    position: absolute;
+    display: flex;
+    top: 490%;
+    width: 100%;  
+    height: 100%;
+    
+}
+#pt5{
+    position: absolute;
+    display: flex;
+    top:140%;
+}
+
+.ess{
+    position:absolute;
+    left: 35%;
+    
+    font-size: 2em;
+    color: white;
+    font-family: 'Gotu';
+}
+.ex{
+    position: absolute;
+    left: 50%;
+    font-size: 2em;
+    color: white;
+    font-family: 'Gotu';
+}
+.txt5{
+    position: absolute;
+    font-size: 1.5em ;
+    width: 40%;
+    left: 53%;
+    top: 40%;
+    text-align: center;
+    color: white;
+    font-family: 'Gotu';
+}
+
+
+#animals{
+    position: relative;
+    display: flex;
+    left: 7%;
+    top: 30%;
+}
+
+.bal{
+ position: absolute;
+ top: 80%;
+ left: 20%;
+ mix-blend-mode: lighten;
+ transform: rotate(26.25deg);
+
+}
+/* Extincao */
+.pt5{
+    position: absolute;
+    display: flex;
+    top: 490%;
+    width: 100%;  
+    height: 100%;
+    
+}
+#pt5{
+    position: absolute;
+    display: flex;
+    top:140%;
+}
+
+.ess{
+    position:absolute;
+    left: 35%;
+    
+    font-size: 2em;
+    color: white;
+    font-family: 'Gotu';
+}
+.ex{
+    position: absolute;
+    left: 50%;
+    font-size: 2em;
+    color: white;
+    font-family: 'Gotu';
+}
+.txt5{
+    position: absolute;
+    font-size: 1.5em ;
+    width: 40%;
+    left: 53%;
+    top: 30%;
+    text-align: center;
+    color: white;
+    font-family: 'Gotu';
+}
+
+
+#animals2{
+    position: relative;
+    display: flex;
+    left: 7%;
+    top: 30%;
+}
+
+.bal{
+ position: absolute;
+ top: 80%;
+ left: 20%;
+ mix-blend-mode: lighten;
+ transform: rotate(26.25deg);
+
+}
+/* Prevenção */
+.pt6{
+    position: absolute;
+    display: flex;
+    top: 600%;
+    width: 100%;  
+    height: 100%;
+    
+}
+#pt6{
+    position: absolute;
+    display: flex;
+    top:140%;
+}
+
+.prev{
+    position:absolute;
+    left: 40%;
+    
+    font-size: 2em;
+    color: white;
+    font-family: 'Gotu';
+}
+
+.txt6{
+    position: absolute;
+    font-size: 1.5em ;
+    width: 40%;
+    left: 53%;
+    top: 27%;
+    color: white;
+    font-family: 'Gotu';
+}
+.txt6-2{
+    position: absolute;
+    font-size: 1.5em ;
+    width: 90%;
+    left: 5%;
+    top: 85%;
+    
+    color: white;
+    font-family: 'Gotu';
+}
+.txt6-3{
+    position: absolute;
+    font-size: 1.5em ;
+    width: 90%;
+    left: 5%;
+    top: 100%;
+    
+    color: white;
+    font-family: 'Gotu';
+}
+.txt6-4{
+    position: absolute;
+    font-size: 1.5em ;
+    width: 90%;
+    left: 5%;
+    top: 121%;
+    
+    color: white;
+    font-family: 'Gotu';
+}
+.txt6-5{
+    position: absolute;
+    font-size: 1.5em ;
+    width: 90%;
+    left: 5%;
+    top: 142%;
+    
+    color: white;
+    font-family: 'Gotu';
+}
+.txt6-6{
+    position: absolute;
+    font-size: 1.5em ;
+    width: 90%;
+    left: 5%;
+    top: 162%;
+    
+    color: white;
+    font-family: 'Gotu';
+}
+
+
+#animals3{
+    position: relative;
+    display: flex;
+    left: 7%;
+    top: 25%;
+}
+
+.orc{
+ position: absolute;
+ top: 80%;
+ left: 30%;
+ mix-blend-mode: lighten;
+ transform: rotate(-27.36deg);
+
+}
+
+/* Turismo */
+.pt7{
+    position: absolute;
+    display: flex;
+    top: 800%;
+    width: 100%;  
+    height: 100%;
+    
+}
+#pt7{
+    position: absolute;
+    display: flex;
+    top:140%;
+}
+
+.tur{
+    position:absolute;
+    left: 40%;
+    top: 10%;
+    font-size: 2em;
+    color: white;
+    font-family: 'Gotu';
+}
+
+.txt7{
+    position: absolute;
+    font-size: 1.5em ;
+    width: 40%;
+    left: 53%;
+    top: 35%;
+    text-align: center;
+    color: white;
+    font-family: 'Gotu';
+}
+
+
+#animals4{
+    position: relative;
+    display: flex;
+    left: 7%;
+    top: 30%;
+}
+
+.tr{
+    text-decoration-line: none;
+}
+.rt{
+    text-decoration-line: none;
+}
+/* Lixo */
+.pt8{
+    position: absolute;
+    display: flex;
+    top: 910%;
+    width: 100%;  
+    height: 100%;
+    
+}
+#pt8{
+    position: absolute;
+    display: flex;
+    top:140%;
+}
+
+.lixo{
+    position:absolute;
+    left: 20%;
+    top: 10%;
+    font-size: 2em;
+    color: white;
+    font-family: 'Gotu';
+}
+
+.txt8{
+    position: absolute;
+    font-size: 1.5em ;
+    width: 40%;
+    left: 53%;
+    top: 30%;
+    text-align: center;
+    color: white;
+    font-family: 'Gotu';
+}
+
+
+#animals5{
+    position: relative;
+    display: flex;
+    left: 7%;
+    top: 45%;
+}
+
+.car{
+ position: absolute;
+ top: 5%;
+ left: -20%;
+ mix-blend-mode: lighten;
+ transform: rotate(26.25deg);
+}
+/* Outros Locais de Monitoramento */
+.lm{
+    position: absolute;
+    display: flex;
+    top: 1060%;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imagens_p1/peixe1.png);
+    background-position: 120% 100%;
+    background-size: 1000px 548px;
+    background-repeat: no-repeat;
+    mix-blend-mode: lighten;
+      
+}
+#pt9{
+    position: absolute;
+    display: flex;
+    top:1010%;
+}
+.LM{
+    position: absolute;
+    font-size: 2em ;
+    left: 28%;
+    color: white;
+    font-family: 'Gotu';
+}
+/* Box Arraial do Cabo */
+.box1{
+    position: absolute;
+    display: flex;
+    background-color: #005E93;
+    top: 20%;
+    left: 6%;
+    width: 20%;
+    height: 85%;
+    border-radius: 5%; 
+}
+.cag{
+    position: absolute;
+    border-radius: 50%;
+    left: 20%;
+    top: 10%;
+}
+.IC{
+    position: absolute;
+    left: 16%;
+    top: 41%;
+    color: white;
+    font-family: 'Gotu';
+    font-size: 1.5em ;
+}
+.txtIC{
+    position: absolute;
+    top: 55%;
+    text-align: center;
+    color: white;
+    font-family: 'Gotu';
+    font-size: 1em ;
+}
+.btn1{
+    position: absolute;
+    width: 50%;
+    height: 5%;
+    left: 25%;
+    top: 90%;
+    text-align: center;
+    border-radius: 5%;
+    border-style: none;
+    background-color: #40DDFF;
+    color: white; 
+}
+.sb{
+    font-family: 'Gotu';
+}
+/* Box de Abrolhos */
+.box3{
+    position: absolute;
+    display: flex;
+    background-color: #005E93;
+    top: 20%;
+    left: 37%;
+    width: 20%;
+    height: 85%;
+    border-radius: 5%; 
+}
+.a{
+    position: absolute;
+    border-radius: 50%;
+    left: 20%;
+    top: 10%;
+}
+.A{
+    position: absolute;
+    left: 27%;
+    top: 41%;
+    color: white;
+    font-family: 'Gotu';
+    font-size: 1.5em ;
+}
+.txtA{
+    position: absolute;
+    left: 0%;
+    top: 52%;
+    text-align: center;
+    color: white;
+    font-family: 'Gotu';
+    font-size: 1em ;
+}
+.btn3{
+    position: absolute;
+    width: 50%;
+    height: 5%;
+    left: 20%;
+    top: 90%;
+    text-align: center;
+    border-radius: 5%;
+    border-style: none;
+    background-color: #40DDFF;
+    color: white;
+    
+    
+}
+.sb{
+    font-family: 'Gotu';
+}
+/* Box Fernado de Noronha */
+.box4{
+    position: absolute;
+    display: flex;
+    background-color: #005E93;
+    top: 20%;
+    left: 68%;
+    width: 20%;
+    height: 85%;
+    border-radius: 5%; 
+}
+.fn{
+    position: absolute;
+    border-radius: 50%;
+    left: 20%;
+    top: 7%;
+}
+.FN{
+    position: absolute;
+    width: 70%;
+    text-align: center;
+    left: 14%;
+    top: 37%;
+    color: white;
+    font-family: 'Gotu';
+    font-size: 1.5em ;
+}
+.txtFN{
+    position: absolute;
+    left: 0%;
+    top: 53%;
+    text-align: center;
+    color: white;
+    font-family: 'Gotu';
+    font-size: 1em ;
+}
+.btn4{
+    position: absolute;
+    width: 50%;
+    height: 5%;
+    left: 25%;
+    top: 92%;
+    text-align: center;
+    border-radius: 5%;
+    border-style: none;
+    background-color: #40DDFF;
+    color: white; 
+}
+.sb{
+    font-family: 'Gotu';
+}

@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, #043F81, #05336F,#01214F);
+    
+}
+/* Parte da logo */
+.logo{
+    position: absolute;
+    display: flex;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 125%;
+    text-align: center;
+    background-size: 1744px 842px;
+    
+}
+.otherPg{
+    border-radius: 5%;
+    height: 5%;
+    width: 70%;
+    color:white;
+    list-style: none;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    display: flex;
+    top: 2%;
+    left: 20%;
+}
+
+.links{
+    position: absolute;
+    top: 30%;
+    color: white;
+    font-family: 'Gotu';
+    font-size: 1em;
+}
+
+.a1{
+    color: white;
+    text-decoration-line: none;
+    padding: 20px;
+}
+.a1:hover{
+    color: #00BCCD;
+}
+.a2{
+    background-color: transparent;
+    color: white;
+    text-decoration-line: none;
+    padding: 10px;
+    border-style: none;
+}
+
+.a2:hover{
+    color: #00BCCD;
+}
+.a3{
+    color: white;
+    text-decoration-line: none;
+    padding: 10px;
+}
+.a3:hover{
+    color: #00BCCD;
+}
+.a4{
+    color: white;
+    text-decoration-line: none;
+    padding: 10px;
+}
+.a4:hover{
+    color: #00BCCD;
+}
+.a5{
+    color: white;
+    text-decoration-line: none;
+    padding: 10px;
+}
+.a5:hover{
+    color: #00BCCD;
+}
+
+.m{
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    font-size: 5em;
+    color: white;
+    font-family: 'Gotu';
+}
+
+.m{
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    font-size: 5em;
+    color: white;
+    font-family: 'Gotu';
+}
+
+
+
+/* Box Arraial do Cabo */
+.box1{
+    position: absolute;
+    display: flex;
+    background-color: #005E93;
+    top: 30%;
+    left: 6%;
+    width: 20%;
+    height: 55%;
+    border-radius: 5%; 
+}
+.box3{
+    position: absolute;
+    display: flex;
+    background-color: #005E93;
+    top: 30%;
+    left: 37%;
+    width: 20%;
+    height: 55%;
+    border-radius: 5%; 
+}
+
+.box4{
+    position: absolute;
+    display: flex;
+    background-color: #005E93;
+    top: 30%;
+    left: 68%;
+    width: 20%;
+    height: 55%;
+    border-radius: 5%; 
+}
+.img{
+    position: absolute;
+    border-radius: 50%;
+    left: 20%;
+    top: 10%;
+}
+.nome{
+    position: absolute;
+    left: 0%;
+    top: 45%;
+    color: white;
+    font-family: 'Gotu';
+    font-size: 1.5em ;
+    text-align: center;
+}
+.info{
+    position: absolute;
+    top: 57%;
+    left: 3%;
+    height: 50%;
+    text-align: center;
+    color: white;
+    font-family: 'Gotu';
+    font-size: 1em ;
+    text-align: center;
+}
+.info2{
+    position: absolute;
+    top: 64%;
+    left: 3%;
+    text-align: center;
+    color: white;
+    font-family: 'Gotu';
+    font-size: 1em ;
+    text-align: center;
+}
+.link1{
+    text-decoration: none;
+    color: white;
+    font-family: 'Gotu';
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-family: 'Gotu';
+}
+
+#a11:hover{
+    color: #00BCCD;
+}
+#a21:hover{
+    color: #00BCCD;
+}
+#a1:hover{
+    color: #00BCCD;
+}
+#a2:hover{
+    color: #00BCCD;
+}
+
+.github{
+    position: absolute;
+    background-color:#00BCCD;
+    border: 1.2px solid #00BCCD;
+    border-radius: 10px;
+    height: 5%;
+    width: 15%;
+    color:black;
+    list-style: none;
+    font-weight: bold;
+    position: absolute;
+    display: flex;
+    top: 15%;
+    left: 83%;
+     
+}
+.gh{
+    text-decoration: none;
+    color: #01214F;
+    font-family: 'Gotu';
+    position: absolute;
+    top: 25%;
+    left: 7%;
+}
+
+
