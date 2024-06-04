@@ -225,8 +225,8 @@ body{
     font-weight: bold;
     position: absolute;
     display: flex;
-    top: 15%;
-    left: 83%;
+    top: 90%;
+    left: 40%;
      
 }
 .gh{
@@ -324,7 +324,7 @@ body{
 
 .m{
     position: absolute;
-    left: 30%;
+    left: 38%;
     top: 10%;
     font-size: 5em;
     color: white;
