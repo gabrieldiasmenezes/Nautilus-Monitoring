@@ -33,7 +33,8 @@ body{
     position: fixed;
     display: flex;
     top: 2%;
-    left: 20%;
+    left: 28%;
+    font-size: 20px;
 }
 
 .links{
@@ -160,7 +161,7 @@ body{
 }
 .nome{
     position: absolute;
-    left: 0%;
+    left: 10%;
     top: 45%;
     color: white;
     font-family: 'Gotu';
@@ -170,7 +171,7 @@ body{
 .info{
     position: absolute;
     top: 65%;
-    left: 3%;
+    left: 18%;
     height: 50%;
     text-align: center;
     color: white;
@@ -181,7 +182,7 @@ body{
 .info2{
     position: absolute;
     top: 64%;
-    left: 3%;
+    left: 18%;
     text-align: center;
     color: white;
     font-family: 'Gotu';
@@ -224,8 +225,8 @@ body{
     font-weight: bold;
     position: absolute;
     display: flex;
-    top: 15%;
-    left: 83%;
+    top: 90%;
+    left: 40%;
      
 }
 .gh{
@@ -323,7 +324,7 @@ body{
 
 .m{
     position: absolute;
-    left: 30%;
+    left: 38%;
     top: 10%;
     font-size: 5em;
     color: white;

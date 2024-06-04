@@ -32,8 +32,9 @@ body{
     position: fixed;
     display: flex;
     top: 2%;
-    left: 20%;
+    left: 28%;
     z-index: 1;
+    font-size: 20px;
 }
 
 .links{
@@ -42,6 +43,8 @@ body{
     color: white;
     font-family: 'Gotu';
     font-size: 1em;
+    text-align: center;
+    z-index: 0;
 }
 
 .a1{
