@@ -32,8 +32,8 @@ body{
     position: fixed;
     display: flex;
     top: 2%;
-    left: 28%;
-    font-size: 20px;
+    left: 20%;
+    z-index: 1;
 }
 
 .links{
@@ -196,7 +196,7 @@ body{
     left: 25%;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (min-width:1280px){
     /* Parte da logo */
     .logo{
         position: absolute;
@@ -222,6 +222,7 @@ body{
         display: flex;
         top: 2%;
         left: 13%;
+        z-index: 1;
     }
     
     .links{
@@ -229,7 +230,7 @@ body{
         top: 30%;
         color: white;
         font-family: 'Gotu';
-        font-size: 0.8em;
+        font-size: 2em;
     }
     
     .a1{
@@ -284,17 +285,17 @@ body{
     }
     .n{
         position:absolute;
-        left: 18%;
-        top: 20%;
-        font-size: 3.5em;
+        left: 20%;
+        top: 10%;
+        font-size: 4em;
         color: white;
         font-family: 'Gotu';
     }
     .m{
         position: absolute;
-        left: 57%;
-        top: 20%;
-        font-size: 3.5em;
+        left: 55%;
+        top: 10%;
+        font-size: 4em;
         color: #00BCCD;
         font-family: 'Gotu';
     }
@@ -317,7 +318,7 @@ body{
         width: 50%;
         height: 60%;
         left: 22%;
-        top: 40%;
+        top: 20%;
     }
     
     .titulo1{
@@ -327,7 +328,7 @@ body{
         left: 6%;
         width: 80%;
         font-family: 'Gotu';
-        font-size: 1.7em;
+        font-size: 3em;
     }
     
     #idNome{
@@ -338,6 +339,7 @@ body{
         height: 7%;
         width: 75%;
         border-style: none;
+        font-size: 2em;
     }
     
     #idEmail{
@@ -348,6 +350,7 @@ body{
         height: 7%;
         width: 75%;
         border-style: none;
+        font-size: 2em;
     }
     #idMensagem{
         position: absolute;
@@ -357,6 +360,7 @@ body{
         height: 45%;
         width: 75%;
         text-align: start;
+        font-size: 2em;
     }
     #idMensagem::placeholder{
         position: absolute;
@@ -369,7 +373,7 @@ body{
         border: 1.2px solid #00BCCD;
         border-radius: 10px;
         height: 5%;
-        width: 15%;
+        width: 17%;
         color:black;
         list-style: none;
         font-weight: bold;
@@ -382,10 +386,11 @@ body{
     .env{
         position: absolute;
         top: 20%;
-        left: 25%;
+        left: 10%;
+        font-size: 2em;
     } 
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:1024px){
     /* Parte da logo */
     .logo{
         position: absolute;
@@ -393,7 +398,7 @@ body{
         top: 0%;
         left: 0%;
         width: 100%;
-        height: 150%;
+        height: 100%;
         text-align: center;
         background-image: url('../imagens_fundo/img1.png');
         background-size: 1300px 1024px;
@@ -411,6 +416,7 @@ body{
         display: flex;
         top: 2%;
         left: 13%;
+        z-index: 1;
     }
     
     .links{
@@ -418,7 +424,7 @@ body{
         top: 30%;
         color: white;
         font-family: 'Gotu';
-        font-size: 0.8em;
+        font-size: 2em;
     }
     
     .a1{
@@ -475,204 +481,15 @@ body{
         position:absolute;
         left: 18%;
         top: 20%;
-        font-size: 2.5em;
-        color: white;
-        font-family: 'Gotu';
-    }
-    .m{
-        position: absolute;
-        left: 55%;
-        top: 20%;
-        font-size: 2.5em;
-        color: #00BCCD;
-        font-family: 'Gotu';
-    }
-    .txt1{
-        position: absolute;
-        width: 50%;
-        left: 25%;
-        top: 35%;
-        font-size: 1.5em;
-        color: white;
-        font-family: 'Gotu';
-    }
-    .box1{
-        display: flex;
-        position: absolute;
-        border: 1px solid black;
-        background-color: white;
-        border-radius: 10%;
-        background-color: #005E93;
-        width: 50%;
-        height: 60%;
-        left: 22%;
-        top: 40%;
-    }
-    
-    .titulo1{
-        display: flex;
-        position: absolute;
-        top: 5%;
-        left: 6%;
-        width: 80%;
-        font-family: 'Gotu';
-        font-size: 1.7em;
-    }
-    
-    #idNome{
-        position: absolute;
-        top: 25%;
-        left: 10%;
-        border-radius: 10px;
-        height: 7%;
-        width: 75%;
-        border-style: none;
-    }
-    
-    #idEmail{
-        position: absolute;
-        top: 35%;
-        left: 10%;
-        border-radius: 10px;
-        height: 7%;
-        width: 75%;
-        border-style: none;
-    }
-    #idMensagem{
-        position: absolute;
-        top: 45%;
-        left: 10%;
-        border-radius: 10px;
-        height: 45%;
-        width: 75%;
-        text-align: start;
-    }
-    #idMensagem::placeholder{
-        position: absolute;
-        top: 4%;
-        left: 2%;
-    }
-    .mandar{
-        position: absolute;
-        background-color:#00BCCD;
-        border: 1.2px solid #00BCCD;
-        border-radius: 10px;
-        height: 5%;
-        width: 15%;
-        color:black;
-        list-style: none;
-        font-weight: bold;
-        position: absolute;
-        display: flex;
-        top: 93%;
-        left: 35%;
-         
-    }
-    .env{
-        position: absolute;
-        top: 20%;
-        left: 15%;
-    } 
-}
-@media screen and (max-width:480px){
-    /* Parte da logo */
-    .logo{
-        position: absolute;
-        display: flex;
-        top: 0%;
-        left: 0%;
-        width: 100%;
-        height: 150%;
-        text-align: center;
-        background-image: url('../imagens_fundo/img1.png');
-        background-size: 1300px 1024px;
-        
-    }
-    .otherPg{
-        border-radius: 5%;
-        height: 5%;
-        width: 90%;
-        color:white;
-        list-style: none;
-        font-weight: bold;
-        text-align: center;
-        position: fixed;
-        display: flex;
-        top: 2%;
-        left: 2%;
-    }
-    
-    .links{
-        position: absolute;
-        top: 30%;
-        color: white;
-        font-family: 'Gotu';
-        font-size: 0.6em;
-    }
-    
-    .a1{
-        color: white;
-        text-decoration-line: none;
-        padding: 20px;
-    }
-    .a1:hover{
-        color: #00BCCD;
-    }
-    .a2{
-        background-color: transparent;
-        color: white;
-        text-decoration-line: none;
-        padding: 10px;
-        border-style: none;
-    }
-    
-    .a2:hover{
-        color: #00BCCD;
-    }
-    .a3{
-        color: white;
-        text-decoration-line: none;
-        padding: 10px;
-    }
-    .a3:hover{
-        color: #00BCCD;
-    }
-    .a4{
-        color: white;
-        text-decoration-line: none;
-        padding: 10px;
-    }
-    .a4:hover{
-        color: #00BCCD;
-    }
-    .a5{
-        color: white;
-        text-decoration-line: none;
-        padding: 10px;
-    }
-    .a5:hover{
-        color: #00BCCD;
-    }
-    
-    .menu{
-        position: absolute;
-        left: 90%;
-        border-style: none;
-        
-    }
-    .n{
-        position:absolute;
-        left: 18%;
-        top: 10%;
-        font-size: 1.6em;
+        font-size: 3.5em;
         color: white;
         font-family: 'Gotu';
     }
     .m{
         position: absolute;
         left: 57%;
-        top: 10%;
-        font-size: 1.6em;
+        top: 20%;
+        font-size: 3.5em;
         color: #00BCCD;
         font-family: 'Gotu';
     }
@@ -695,7 +512,7 @@ body{
         width: 50%;
         height: 60%;
         left: 22%;
-        top: 20%;
+        top: 30%;
     }
     
     .titulo1{
@@ -705,7 +522,7 @@ body{
         left: 6%;
         width: 80%;
         font-family: 'Gotu';
-        font-size: 1em;
+        font-size: 2.3em;
     }
     
     #idNome{
@@ -754,12 +571,397 @@ body{
         position: absolute;
         display: flex;
         top: 93%;
-        left: 35%;
+        left:35%;
          
     }
     .env{
         position: absolute;
         top: 20%;
         left: 15%;
+    } 
+}
+@media screen and (max-width:768px){
+    /* Parte da logo */
+    .logo{
+        position: absolute;
+        display: flex;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 150%;
+        text-align: center;
+        background-image: url('../imagens_fundo/img1.png');
+        background-size: 1300px 1024px;
+        
+    }
+    .otherPg{
+        border-radius: 5%;
+        height: 5%;
+        width: 70%;
+        color:white;
+        list-style: none;
+        font-weight: bold;
+        text-align: center;
+        position: fixed;
+        display: flex;
+        top: 2%;
+        left: 13%;
+        z-index: 1;
+    }
+    
+    .links{
+        position: absolute;
+        top: 30%;
+        color: white;
+        font-family: 'Gotu';
+        font-size: 0.8em;
+    }
+    
+    .a1{
+        color: white;
+        text-decoration-line: none;
+        padding: 20px;
+    }
+    .a1:hover{
+        color: #00BCCD;
+    }
+    .a2{
+        background-color: transparent;
+        color: white;
+        text-decoration-line: none;
+        padding: 10px;
+        border-style: none;
+    }
+    
+    .a2:hover{
+        color: #00BCCD;
+    }
+    .a3{
+        color: white;
+        text-decoration-line: none;
+        padding: 10px;
+    }
+    .a3:hover{
+        color: #00BCCD;
+    }
+    .a4{
+        color: white;
+        text-decoration-line: none;
+        padding: 10px;
+    }
+    .a4:hover{
+        color: #00BCCD;
+    }
+    .a5{
+        color: white;
+        text-decoration-line: none;
+        padding: 10px;
+    }
+    .a5:hover{
+        color: #00BCCD;
+    }
+    
+    .menu{
+        position: absolute;
+        left: 90%;
+        border-style: none;
+        
+    }
+    .n{
+        position:absolute;
+        left: 18%;
+        top: 10%;
+        font-size: 2.5em;
+        color: white;
+        font-family: 'Gotu';
+    }
+    .m{
+        position: absolute;
+        left: 55%;
+        top: 10%;
+        font-size: 2.5em;
+        color: #00BCCD;
+        font-family: 'Gotu';
+    }
+    .txt1{
+        position: absolute;
+        width: 50%;
+        left: 25%;
+        top: 35%;
+        font-size: 1.5em;
+        color: white;
+        font-family: 'Gotu';
+    }
+    .box1{
+        display: flex;
+        position: absolute;
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 10%;
+        background-color: #005E93;
+        width: 50%;
+        height: 60%;
+        left: 22%;
+        top: 20%;
+    }
+    
+    .titulo1{
+        display: flex;
+        position: absolute;
+        top: 5%;
+        left: 6%;
+        width: 80%;
+        font-family: 'Gotu';
+        font-size: 1.7em;
+    }
+    
+    #idNome{
+        position: absolute;
+        top: 25%;
+        left: 10%;
+        border-radius: 10px;
+        height: 7%;
+        width: 75%;
+        border-style: none;
+    }
+    
+    #idEmail{
+        position: absolute;
+        top: 35%;
+        left: 10%;
+        border-radius: 10px;
+        height: 7%;
+        width: 75%;
+        border-style: none;
+    }
+    #idMensagem{
+        position: absolute;
+        top: 45%;
+        left: 10%;
+        border-radius: 10px;
+        height: 45%;
+        width: 75%;
+        text-align: start;
+    }
+    #idMensagem::placeholder{
+        position: absolute;
+        top: 4%;
+        left: 2%;
+    }
+    .mandar{
+        position: absolute;
+        background-color:#00BCCD;
+        border: 1.2px solid #00BCCD;
+        border-radius: 10px;
+        height: 5%;
+        width: 27%;
+        color:black;
+        list-style: none;
+        font-weight: bold;
+        position: absolute;
+        display: flex;
+        top: 93%;
+        left: 32%;
+         
+    }
+    .env{
+        position: absolute;
+        top: 20%;
+        left: 15%;
+    } 
+}
+@media screen and (max-width:480px){
+    /* Parte da logo */
+    .logo{
+        position: absolute;
+        display: flex;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 150%;
+        text-align: center;
+        background-image: url('../imagens_fundo/img1.png');
+        background-size: 1300px 1024px;
+        
+    }
+    .otherPg{
+        border-radius: 5%;
+        height: 5%;
+        width: 90%;
+        color:white;
+        list-style: none;
+        font-weight: bold;
+        text-align: center;
+        position: fixed;
+        display: flex;
+        top: 2%;
+        left: 2%;
+        z-index: 1;
+    }
+    
+    .links{
+        position: absolute;
+        top: 30%;
+        color: white;
+        font-family: 'Gotu';
+        font-size: 1em;
+    }
+    
+    .a1{
+        color: white;
+        text-decoration-line: none;
+        padding: 20px;
+    }
+    .a1:hover{
+        color: #00BCCD;
+    }
+    .a2{
+        background-color: transparent;
+        color: white;
+        text-decoration-line: none;
+        padding: 10px;
+        border-style: none;
+    }
+    
+    .a2:hover{
+        color: #00BCCD;
+    }
+    .a3{
+        color: white;
+        text-decoration-line: none;
+        padding: 10px;
+    }
+    .a3:hover{
+        color: #00BCCD;
+    }
+    .a4{
+        color: white;
+        text-decoration-line: none;
+        padding: 10px;
+    }
+    .a4:hover{
+        color: #00BCCD;
+    }
+    .a5{
+        color: white;
+        text-decoration-line: none;
+        padding: 10px;
+    }
+    .a5:hover{
+        color: #00BCCD;
+    }
+    
+    .menu{
+        position: absolute;
+        left: 90%;
+        border-style: none;
+        
+    }
+    .n{
+        position:absolute;
+        left: 23%;
+        top: 10%;
+        font-size: 2em;
+        color: white;
+        font-family: 'Gotu';
+    }
+    .m{
+        position: absolute;
+        left: 32%;
+        top: 13%;
+        font-size: 2em;
+        color: #00BCCD;
+        font-family: 'Gotu';
+    }
+    .txt1{
+        position: absolute;
+        width: 50%;
+        left: 25%;
+        top: 35%;
+        font-size: 1.5em;
+        color: white;
+        font-family: 'Gotu';
+    }
+    .box1{
+        display: flex;
+        position: absolute;
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 10%;
+        background-color: #005E93;
+        width: 50%;
+        height: 60%;
+        left: 22%;
+        top: 20%;
+    }
+    
+    .titulo1{
+        display: flex;
+        position: absolute;
+        top: 5%;
+        left: 6%;
+        width: 80%;
+        font-family: 'Gotu';
+        font-size: 1.3em;
+    }
+    
+    #idNome{
+        position: absolute;
+        top: 25%;
+        left: 10%;
+        border-radius: 10px;
+        height: 7%;
+        width: 75%;
+        border-style: none;
+        font-size: 1em;
+    }
+    
+    #idEmail{
+        position: absolute;
+        top: 35%;
+        left: 10%;
+        border-radius: 10px;
+        height: 7%;
+        width: 75%;
+        border-style: none;
+        font-size: 1em;
+    }
+    #idMensagem{
+        position: absolute;
+        top: 45%;
+        left: 10%;
+        border-radius: 10px;
+        height: 45%;
+        width: 75%;
+        text-align: start;
+        font-size: 1em;
+    }
+    #idMensagem::placeholder{
+        position: absolute;
+        top: 4%;
+        left: 2%;
+    }
+    .mandar{
+        position: absolute;
+        background-color:#00BCCD;
+        border: 1.2px solid #00BCCD;
+        border-radius: 10px;
+        height: 5%;
+        width: 22%;
+        color:black;
+        list-style: none;
+        font-weight: bold;
+        position: absolute;
+        display: flex;
+        top: 93%;
+        left: 35%;
+        
+         
+    }
+    .env{
+        position: absolute;
+        top: 20%;
+        left: 15%;
+        font-size: 1em;
     } 
 }

@@ -32,9 +32,8 @@ body{
     position: fixed;
     display: flex;
     top: 2%;
-    left: 28%;
+    left: 20%;
     z-index: 1;
-    font-size: 20px;
 }
 
 .links{
@@ -43,8 +42,6 @@ body{
     color: white;
     font-family: 'Gotu';
     font-size: 1em;
-    text-align: center;
-    z-index: 0;
 }
 
 .a1{
@@ -422,7 +419,7 @@ transform: rotate(-3.29deg);
         top: 0%;
         left: 0%;
         width: 100%;
-        height: 150%;
+        height: 60%;
         text-align: center;
         background-image: url('../imagens_fundo/img1.png');
         background-size: 1350px 1124px;
@@ -431,7 +428,7 @@ transform: rotate(-3.29deg);
     .otherPg{
         border-radius: 5%;
         height: 5%;
-        width: 80%;
+        width: 100%;
         color:white;
         list-style: none;
         font-weight: bold;
@@ -439,7 +436,7 @@ transform: rotate(-3.29deg);
         position: fixed;
         display: flex;
         top: 2%;
-        left: 15%;
+        left: 2%;
         z-index:1;
     }
     
@@ -448,7 +445,7 @@ transform: rotate(-3.29deg);
         top: 30%;
         color: white;
         font-family: 'Gotu';
-        font-size: 1em;
+        font-size: 1.8em;
     }
     
     .a1{
@@ -503,16 +500,16 @@ transform: rotate(-3.29deg);
     }
     .n{
         position:absolute;
-        left: 16%;
-        top: 20%;
+        left: 21%;
+        top: 40%;
         font-size: 5em;
         color: white;
         font-family: 'Gotu';
     }
     .m{
         position: absolute;
-        left: 43%;
-        top: 20%;
+        left: 48%;
+        top: 40%;
         font-size: 5em;
         color: #00BCCD;
         font-family: 'Gotu';
@@ -520,8 +517,8 @@ transform: rotate(-3.29deg);
     .txt1{
         position: absolute;
         width: 50%;
-        left: 19%;
-        top: 32%;
+        left: 24%;
+        top: 52%;
         font-size: 1.5em;
         color: white;
         font-family: 'Gotu';
@@ -532,8 +529,8 @@ transform: rotate(-3.29deg);
         position: relative;
         width: 180.35px;
         height: 176.34px;
-        left: 66%;
-        top: 17%;
+        left: 70%;
+        top: 37%;
         border-radius: 50% 50% 50% 50%;
         border: 5px solid white;
         border-color:transparent white white white;
@@ -543,7 +540,7 @@ transform: rotate(-3.29deg);
     .pt2{
         position: absolute;
         display: flex;
-        top: 170%;
+        top: 70%;
         width: 100%;  
         height: 100%;
         
@@ -551,12 +548,12 @@ transform: rotate(-3.29deg);
     #pt2{
         position: absolute;
         display: flex;
-        top:160%;
+        top:60%;
     }
     .tit2{
         position: absolute;
-        font-size: 2em ;
-        left: 35%;
+        font-size: 3em ;
+        left: 30%;
         color: white;
         font-family: 'Gotu';
     }
@@ -565,7 +562,7 @@ transform: rotate(-3.29deg);
         font-size: 1.5em ;
         width: 70%;
         left: 15%;
-        top: 20%;
+        top: 10%;
         text-align: center;
         color: white;
         font-family: 'Gotu';
@@ -590,7 +587,7 @@ transform: rotate(-3.29deg);
     .pt3{
         position: absolute;
         display: flex;
-        top: 270%;
+        top: 110%;
         width: 100%;
         height: 100%;
         background-image: url(../imagens_p1/peixe1.png);
@@ -607,8 +604,8 @@ transform: rotate(-3.29deg);
     }
     .tit3{
         position: absolute;
-        font-size: 2em ;
-        left: 30%;
+        font-size: 3em ;
+        left: 25%;
         color: white;
         font-family: 'Gotu';
     }
@@ -619,32 +616,35 @@ transform: rotate(-3.29deg);
         background-color: #005E93;
         top: 20%;
         left: 15%;
-        width: 25%;
-        height: 75%;
+        width: 30%;
+        height: 65%;
         border-radius: 5%; 
     }
     .cag{
         position: absolute;
         border-radius: 50%;
-        left: 20%;
+        width:288px; 
+        height:286px;
+        left: 10%;
         top: 10%;
     }
     .IC{
         position: absolute;
-        left: 16%;
+        left: 10%;
         top: 41%;
+        width: 100%;
         color: white;
         font-family: 'Gotu';
-        font-size: 1.5em ;
+        font-size: 2.5em ;
     }
     .txtIC{
         position: absolute;
         left: 0%;
-        top: 55%;
+        top: 50%;
         text-align: center;
         color: white;
         font-family: 'Gotu';
-        font-size: 1em ;
+        font-size: 2em ;
     }
     .btn1{
         position: absolute;
@@ -662,6 +662,7 @@ transform: rotate(-3.29deg);
     }
     .sb{
         font-family: 'Gotu';
+        font-size: 2em;
     }
     /* Box Arraial do Cabo */
     .box2{
@@ -670,14 +671,16 @@ transform: rotate(-3.29deg);
         background-color: #005E93;
         top: 20%;
         left: 55%;
-        width: 25%;
-        height: 75%;
+        width: 30%;
+        height: 65%;
         border-radius: 5%; 
     }
     .ac{
         position: absolute;
         border-radius: 50%;
-        left: 20%;
+        width:288px; 
+        height:286px;
+        left: 10%;
         top: 10%;
     }
     .AC{
@@ -686,15 +689,15 @@ transform: rotate(-3.29deg);
         top: 41%;
         color: white;
         font-family: 'Gotu';
-        font-size: 1.5em ;
+        font-size: 2.5em ;
     }
     .txtAC{
         position: absolute;
-        top: 55%;
+        top: 50%;
         text-align: center;
         color: white;
         font-family: 'Gotu';
-        font-size: 1em ;
+        font-size: 2em ;
     }
     .btn2{
         position: absolute;
@@ -710,22 +713,25 @@ transform: rotate(-3.29deg);
     }
     .sb{
         font-family: 'Gotu';
+        font-size: 2em;
     }
     /* Box de Abrolhos */
     .box3{
         position: absolute;
         display: flex;
         background-color: #005E93;
-        top: 110%;
+        top: 90%;
         left: 15%;
-        width: 25%;
-        height: 75%;
+        width: 30%;
+        height: 65%;
         border-radius: 5%; 
     }
     .a{
         position: absolute;
         border-radius: 50%;
-        left: 20%;
+        width:288px; 
+        height:286px;
+        left: 10%;
         top: 10%;
     }
     .A{
@@ -734,16 +740,16 @@ transform: rotate(-3.29deg);
         top: 41%;
         color: white;
         font-family: 'Gotu';
-        font-size: 1.5em ;
+        font-size: 2.5em ;
     }
     .txtA{
         position: absolute;
         left: 0%;
-        top: 58%;
+        top: 50%;
         text-align: center;
         color: white;
         font-family: 'Gotu';
-        font-size: 1em ;
+        font-size: 2em ;
     }
     .btn3{
         position: absolute;
@@ -761,22 +767,25 @@ transform: rotate(-3.29deg);
     }
     .sb{
         font-family: 'Gotu';
+        font-size: 2em;
     }
     /* Box Fernado de Noronha */
     .box4{
         position: absolute;
         display: flex;
         background-color: #005E93;
-        top: 110%;
+        top: 90%;
         left: 55%;
-        width: 25%;
-        height: 75%;
+        width: 30%;
+        height: 65%;
         border-radius: 5%; 
     }
     .fn{
         position: absolute;
         border-radius: 50%;
-        left: 25%;
+        width:288px; 
+        height:286px;
+        left: 10%;
         top: 7%;
     }
     .FN{
@@ -787,16 +796,16 @@ transform: rotate(-3.29deg);
         top: 37%;
         color: white;
         font-family: 'Gotu';
-        font-size: 1.5em ;
+        font-size: 2.5em ;
     }
     .txtFN{
         position: absolute;
         left: 0%;
-        top: 58%;
+        top: 50%;
         text-align: center;
         color: white;
         font-family: 'Gotu';
-        font-size: 1em ;
+        font-size: 2em ;
     }
     .btn4{
         position: absolute;
@@ -812,10 +821,428 @@ transform: rotate(-3.29deg);
     }
     .sb{
         font-family: 'Gotu';
+        font-size: 2em;
     }
     
 }
-
+@media screen and (max-width:1024px) {
+    body{
+        background-image: linear-gradient(to right, #043F81, #05336F,#01214F);
+    }
+    /* Parte da logo */
+    .logo{
+        position: absolute;
+        display: flex;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 68%;
+        text-align: center;
+        background-image: url('../imagens_fundo/img1.png');
+        background-size: 1350px 1124px;
+        
+    }
+    .otherPg{
+        border-radius: 5%;
+        height: 5%;
+        width: 100%;
+        color:white;
+        list-style: none;
+        font-weight: bold;
+        text-align: center;
+        position: fixed;
+        display: flex;
+        top: 2%;
+        left: 2%;
+        z-index:1;
+    }
+    
+    .links{
+        position: absolute;
+        top: 30%;
+        color: white;
+        font-family: 'Gotu';
+        font-size: 1.4em;
+    }
+    
+    .a1{
+        color: white;
+        text-decoration-line: none;
+        padding: 20px;
+    }
+    .a1:hover{
+        color: #00BCCD;
+    }
+    .a2{
+        background-color: transparent;
+        color: white;
+        text-decoration-line: none;
+        padding: 10px;
+        border-style: none;
+    }
+    
+    .a2:hover{
+        color: #00BCCD;
+    }
+    .a3{
+        color: white;
+        text-decoration-line: none;
+        padding: 10px;
+    }
+    .a3:hover{
+        color: #00BCCD;
+    }
+    .a4{
+        color: white;
+        text-decoration-line: none;
+        padding: 10px;
+    }
+    .a4:hover{
+        color: #00BCCD;
+    }
+    .a5{
+        color: white;
+        text-decoration-line: none;
+        padding: 10px;
+    }
+    .a5:hover{
+        color: #00BCCD;
+    }
+    
+    .menu{
+        position: absolute;
+        left: 90%;
+        border-style: none;
+        
+    }
+    .n{
+        position:absolute;
+        left: 12%;
+        top: 40%;
+        font-size: 5em;
+        color: white;
+        font-family: 'Gotu';
+    }
+    .m{
+        position: absolute;
+        left: 46%;
+        top: 40%;
+        font-size: 5em;
+        color: #00BCCD;
+        font-family: 'Gotu';
+    }
+    .txt1{
+        position: absolute;
+        width: 50%;
+        left: 24%;
+        top: 52%;
+        font-size: 1.5em;
+        color: white;
+        font-family: 'Gotu';
+    }
+    .elipse{
+        
+        box-sizing: border-box;
+        position: relative;
+        width: 180.35px;
+        height: 176.34px;
+        left: 74%;
+        top: 37%;
+        border-radius: 50% 50% 50% 50%;
+        border: 5px solid white;
+        border-color:transparent white white white;
+        transform: rotate(-105deg);
+    }
+    /* Parte sobre o site(Nautilus Monitoring) */
+    .pt2{
+        position: absolute;
+        display: flex;
+        top: 70%;
+        width: 100%;  
+        height: 100%;
+        
+    }
+    #pt2{
+        position: absolute;
+        display: flex;
+        top:70%;
+    }
+    .tit2{
+        position: absolute;
+        font-size: 3em ;
+        left: 25%;
+        color: white;
+        font-family: 'Gotu';
+    }
+    .txt2{
+        position: absolute;
+        font-size: 1.5em ;
+        width: 70%;
+        left: 15%;
+        top: 10%;
+        text-align: center;
+        color: white;
+        font-family: 'Gotu';
+    }
+    .ag1{
+    position: absolute;
+    background: url(agua-viva.png);
+    mix-blend-mode: lighten;
+    transform: rotate(30.29deg);
+    
+    }
+    .ag2{
+    position: absolute;
+    left: 60%;
+    top: 40%;
+    background: url(agua-viva.png);
+    mix-blend-mode: lighten;
+    transform: rotate(-3.29deg);
+    
+    }
+    /* Parte dos locais de Monitoramento */
+    .pt3{
+        position: absolute;
+        display: flex;
+        top: 110%;
+        width: 100%;
+        height: 100%;
+        background-image: url(../imagens_p1/peixe1.png);
+        background-position: 120% 100%;
+        background-size: 1000px 548px;
+        background-repeat: no-repeat;
+        mix-blend-mode: lighten;
+          
+    }
+    #pt3{
+        position: absolute;
+        display: flex;
+        top:260%;
+    }
+    .tit3{
+        position: absolute;
+        font-size: 3em ;
+        left: 20%;
+        color: white;
+        font-family: 'Gotu';
+    }
+    /* Box das Ilhas Cagarras */
+    .box1{
+        position: absolute;
+        display: flex;
+        background-color: #005E93;
+        top: 20%;
+        left: 15%;
+        width: 30%;
+        height: 65%;
+        border-radius: 5%; 
+    }
+    .cag{
+        position: absolute;
+        border-radius: 50%;
+        width:248px; 
+        height:246px;
+        left: 10%;
+        top: 10%;
+    }
+    .IC{
+        position: absolute;
+        left: 10%;
+        top: 41%;
+        width: 100%;
+        color: white;
+        font-family: 'Gotu';
+        font-size: 2.3em ;
+    }
+    .txtIC{
+        position: absolute;
+        left: 0%;
+        top: 50%;
+        text-align: center;
+        color: white;
+        font-family: 'Gotu';
+        font-size: 1.7em ;
+    }
+    .btn1{
+        position: absolute;
+        width: 50%;
+        height: 5%;
+        left: 20%;
+        top: 90%;
+        text-align: center;
+        border-radius: 5%;
+        border-style: none;
+        background-color: #40DDFF;
+        color: white;
+        
+        
+    }
+    .sb{
+        font-family: 'Gotu';
+        font-size: 2em;
+    }
+    /* Box Arraial do Cabo */
+    .box2{
+        position: absolute;
+        display: flex;
+        background-color: #005E93;
+        top: 20%;
+        left: 55%;
+        width: 30%;
+        height: 65%;
+        border-radius: 5%; 
+    }
+    .ac{
+        position: absolute;
+        border-radius: 50%;
+        width:248px; 
+        height:246px;
+        left: 10%;
+        top: 10%;
+    }
+    .AC{
+        position: absolute;
+        left: 16%;
+        top: 38%;
+        color: white;
+        font-family: 'Gotu';
+        font-size: 2.3em ;
+        
+    }
+    .txtAC{
+        position: absolute;
+        top: 51%;
+        text-align: center;
+        color: white;
+        font-family: 'Gotu';
+        font-size: 1.7em ;
+    }
+    .btn2{
+        position: absolute;
+        width: 50%;
+        height: 5%;
+        left: 25%;
+        top: 90%;
+        text-align: center;
+        border-radius: 5%;
+        border-style: none;
+        background-color: #40DDFF;
+        color: white; 
+    }
+    .sb{
+        font-family: 'Gotu';
+        font-size: 2em;
+    }
+    /* Box de Abrolhos */
+    .box3{
+        position: absolute;
+        display: flex;
+        background-color: #005E93;
+        top: 90%;
+        left: 15%;
+        width: 30%;
+        height: 65%;
+        border-radius: 5%; 
+    }
+    .a{
+        position: absolute;
+        border-radius: 50%;
+        width:248px; 
+        height:246px;
+        left: 10%;
+        top: 10%;
+    }
+    .A{
+        position: absolute;
+        left: 27%;
+        top: 41%;
+        color: white;
+        font-family: 'Gotu';
+        font-size: 2.3em ;
+    }
+    .txtA{
+        position: absolute;
+        left: 0%;
+        top: 50%;
+        text-align: center;
+        color: white;
+        font-family: 'Gotu';
+        font-size: 1.7em ;
+    }
+    .btn3{
+        position: absolute;
+        width: 50%;
+        height: 5%;
+        left: 20%;
+        top: 90%;
+        text-align: center;
+        border-radius: 5%;
+        border-style: none;
+        background-color: #40DDFF;
+        color: white;
+        
+        
+    }
+    .sb{
+        font-family: 'Gotu';
+        font-size: 2em;
+    }
+    /* Box Fernado de Noronha */
+    .box4{
+        position: absolute;
+        display: flex;
+        background-color: #005E93;
+        top: 90%;
+        left: 55%;
+        width: 30%;
+        height: 65%;
+        border-radius: 5%; 
+    }
+    .fn{
+        position: absolute;
+        border-radius: 50%;
+        width:248px; 
+        height:246px;
+        left: 10%;
+        top: 7%;
+    }
+    .FN{
+        position: absolute;
+        width: 70%;
+        text-align: center;
+        left: 14%;
+        top: 37%;
+        color: white;
+        font-family: 'Gotu';
+        font-size: 2.3em ;
+    }
+    .txtFN{
+        position: absolute;
+        left: 0%;
+        top: 50%;
+        text-align: center;
+        color: white;
+        font-family: 'Gotu';
+        font-size: 1.7em ;
+    }
+    .btn4{
+        position: absolute;
+        width: 50%;
+        height: 5%;
+        left: 25%;
+        top: 92%;
+        text-align: center;
+        border-radius: 5%;
+        border-style: none;
+        background-color: #40DDFF;
+        color: white; 
+    }
+    .sb{
+        font-family: 'Gotu';
+        font-size: 2em;
+    }
+    
+}
 /* media tablet */
 @media(max-width:768px) {
     body{
@@ -828,7 +1255,7 @@ transform: rotate(-3.29deg);
         top: 0%;
         left: 0%;
         width: 100%;
-        height: 200%;
+        height: 100%;
         text-align: center;
         background-image: url('../imagens_fundo/img1.png');
         background-size: 1350px 1124px;
@@ -845,7 +1272,7 @@ transform: rotate(-3.29deg);
         position: fixed;
         display: flex;
         top: 2%;
-        left: 3%;
+        left: 5%;
         z-index:1;
     }
     
@@ -854,7 +1281,7 @@ transform: rotate(-3.29deg);
         top: 30%;
         color: white;
         font-family: 'Gotu';
-        font-size: 0.8em;
+        font-size: 1em;
     }
     
     .a1{
@@ -949,7 +1376,7 @@ transform: rotate(-3.29deg);
     .pt2{
         position: absolute;
         display: flex;
-        top: 220%;
+        top: 120%;
         width: 100%;  
         height: 100%;
         
@@ -957,7 +1384,7 @@ transform: rotate(-3.29deg);
     #pt2{
         position: absolute;
         display: flex;
-        top:210%;
+        top:130%;
     }
     .tit2{
         position: absolute;
@@ -999,7 +1426,7 @@ transform: rotate(-3.29deg);
     .pt3{
         position: absolute;
         display: flex;
-        top: 320%;
+        top: 190%;
         width: 100%;
         height: 100%;
         background-image: url(../imagens_p1/peixe1.png);
@@ -1029,19 +1456,21 @@ transform: rotate(-3.29deg);
         top: 20%;
         left: 10%;
         width: 30%;
-        height: 95%;
+        height: 55%;
         border-radius: 5%; 
     }
     .cag{
         position: absolute;
         border-radius: 50%;
-        left: 20%;
+        width:188px; 
+        height:186px;
+        left: 10%;
         top: 10%;
     }
     .IC{
         position: absolute;
         left: 16%;
-        top: 41%;
+        top: 46%;
         color: white;
         font-family: 'Gotu';
         font-size: 1.5em ;
@@ -1059,18 +1488,19 @@ transform: rotate(-3.29deg);
         position: absolute;
         width: 50%;
         height: 5%;
-        left: 20%;
-        top: 90%;
+        left: 25%;
+        top: 85%;
         text-align: center;
         border-radius: 5%;
         border-style: none;
         background-color: #40DDFF;
         color: white;
-        
-        
+           
     }
     .sb{
         font-family: 'Gotu';
+        font-size: 1em;
+        
     }
     /* Box Arraial do Cabo */
     .box2{
@@ -1080,13 +1510,15 @@ transform: rotate(-3.29deg);
         top: 20%;
         left: 50%;
         width: 30%;
-        height: 95%;
+        height: 55%;
         border-radius: 5%; 
     }
     .ac{
         position: absolute;
         border-radius: 50%;
-        left: 20%;
+        width:188px; 
+        height:186px;
+        left: 10%;
         top: 10%;
     }
     .AC{
@@ -1125,17 +1557,19 @@ transform: rotate(-3.29deg);
         position: absolute;
         display: flex;
         background-color: #005E93;
-        top: 130%;
+        top: 80%;
         left: 10%;
         width: 30%;
-        height: 95%;
+        height: 55%;
         border-radius: 5%; 
     }
     .a{
         position: absolute;
         border-radius: 50%;
-        left: 20%;
-        top: 10%;
+        width:188px; 
+        height:186px;
+        left: 10%;
+        top: 8%;
     }
     .A{
         position: absolute;
@@ -1176,24 +1610,26 @@ transform: rotate(-3.29deg);
         position: absolute;
         display: flex;
         background-color: #005E93;
-        top: 130%;
+        top: 80%;
         left: 50%;
         width: 30%;
-        height: 95%;
+        height: 55%;
         border-radius: 5%; 
     }
     .fn{
         position: absolute;
         border-radius: 50%;
-        left: 20%;
-        top: 7%;
+        width:188px; 
+        height:186px;
+        left: 10%;
+        top: 8%;
     }
     .FN{
         position: absolute;
         width: 70%;
         text-align: center;
         left: 14%;
-        top: 37%;
+        top: 40%;
         color: white;
         font-family: 'Gotu';
         font-size: 1.5em ;
@@ -1201,7 +1637,7 @@ transform: rotate(-3.29deg);
     .txtFN{
         position: absolute;
         left: 0%;
-        top: 53%;
+        top: 56%;
         text-align: center;
         color: white;
         font-family: 'Gotu';
@@ -1236,7 +1672,7 @@ transform: rotate(-3.29deg);
         top: 0%;
         left: 0%;
         width: 100%;
-        height: 200%;
+        height: 100%;
         text-align: center;
         background-image: url('../imagens_fundo/img1.png');
         background-size: 1350px 1124px;
@@ -1335,7 +1771,7 @@ transform: rotate(-3.29deg);
         position: absolute;
         width: 80%;
         left: 10%;
-        top: 29%;
+        top: 32%;
         font-size: 1em;
         color: white;
         font-family: 'Gotu';
@@ -1357,7 +1793,7 @@ transform: rotate(-3.29deg);
     .pt2{
         position: absolute;
         display: flex;
-        top: 220%;
+        top: 120%;
         width: 100%;  
         height: 100%;
         
@@ -1365,7 +1801,7 @@ transform: rotate(-3.29deg);
     #pt2{
         position: absolute;
         display: flex;
-        top:210%;
+        top:120%;
     }
     .tit2{
         position: absolute;
@@ -1408,7 +1844,7 @@ transform: rotate(-3.29deg);
     .pt3{
         position: absolute;
         display: flex;
-        top: 380%;
+        top: 180%;
         width: 100%;
         height: 100%;
           
@@ -1439,25 +1875,25 @@ transform: rotate(-3.29deg);
     .cag{
         position: absolute;
         border-radius: 50%;
-        left: 20%;
-        top: 5%;
+        left: 10%;
+        top: 10%;
     }
     .IC{
         position: absolute;
         left: 16%;
-        top: 46%;
+        top: 41%;
         color: white;
         font-family: 'Gotu';
-        font-size: 1.4em ;
+        font-size: 1.5em ;
     }
     .txtIC{
         position: absolute;
         left: 0%;
-        top: 60%;
+        top: 55%;
         text-align: center;
         color: white;
         font-family: 'Gotu';
-        font-size: 0.7em ;
+        font-size: 1em ;
     }
     .btn1{
         position: absolute;
@@ -1490,24 +1926,24 @@ transform: rotate(-3.29deg);
     .ac{
         position: absolute;
         border-radius: 50%;
-        left: 20%;
-        top: 5%;
+        left: 10%;
+        top: 10%;
     }
     .AC{
         position: absolute;
         left: 13%;
-        top: 46%;
+        top: 41%;
         color: white;
         font-family: 'Gotu';
-        font-size: 1.4em ;
+        font-size: 1.5em ;
     }
     .txtAC{
         position: absolute;
-        top: 60%;
+        top: 55%;
         text-align: center;
         color: white;
         font-family: 'Gotu';
-        font-size: 0.6em ;
+        font-size: 1em ;
     }
     .btn2{
         position: absolute;
@@ -1538,25 +1974,25 @@ transform: rotate(-3.29deg);
     .a{
         position: absolute;
         border-radius: 50%;
-        left: 20%;
-        top: 7%;
+        left: 10%;
+        top: 10%;
     }
     .A{
         position: absolute;
         left: 27%;
-        top: 46%;
+        top: 41%;
         color: white;
         font-family: 'Gotu';
-        font-size: 1.4em ;
+        font-size: 1.5em ;
     }
     .txtA{
         position: absolute;
         left: 0%;
-        top: 57%;
+        top: 52%;
         text-align: center;
         color: white;
         font-family: 'Gotu';
-        font-size: 0.6em ;
+        font-size: 1em ;
     }
     .btn3{
         position: absolute;
@@ -1589,27 +2025,27 @@ transform: rotate(-3.29deg);
     .fn{
         position: absolute;
         border-radius: 50%;
-        left: 20%;
-        top: 5%;
+        left: 10%;
+        top: 7%;
     }
     .FN{
         position: absolute;
         width: 70%;
         text-align: center;
         left: 14%;
-        top: 42%;
+        top: 37%;
         color: white;
         font-family: 'Gotu';
-        font-size: 1.4em ;
+        font-size: 1.5em ;
     }
     .txtFN{
         position: absolute;
         left: 0%;
-        top: 69%;
+        top: 53%;
         text-align: center;
         color: white;
         font-family: 'Gotu';
-        font-size: 0.6em ;
+        font-size: 1em ;
     }
     .btn4{
         position: absolute;

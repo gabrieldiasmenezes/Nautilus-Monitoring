@@ -33,8 +33,7 @@ body{
     position: fixed;
     display: flex;
     top: 2%;
-    left: 28%;
-    font-size: 20px;
+    left: 20%;
 }
 
 .links{
@@ -161,7 +160,7 @@ body{
 }
 .nome{
     position: absolute;
-    left: 10%;
+    left: 0%;
     top: 45%;
     color: white;
     font-family: 'Gotu';
@@ -171,7 +170,7 @@ body{
 .info{
     position: absolute;
     top: 65%;
-    left: 18%;
+    left: 3%;
     height: 50%;
     text-align: center;
     color: white;
@@ -182,7 +181,7 @@ body{
 .info2{
     position: absolute;
     top: 64%;
-    left: 18%;
+    left: 3%;
     text-align: center;
     color: white;
     font-family: 'Gotu';
@@ -225,8 +224,8 @@ body{
     font-weight: bold;
     position: absolute;
     display: flex;
-    top: 90%;
-    left: 40%;
+    top: 15%;
+    left: 83%;
      
 }
 .gh{
@@ -238,7 +237,7 @@ body{
     left: 7%;
 }
 
-@media screen and (max-width:1280px){
+@media screen and (min-width:1280px){
 
 body{
     background-image: linear-gradient(to right, #043F81, #05336F,#01214F);
@@ -268,6 +267,7 @@ body{
     display: flex;
     top: 2%;
     left: 15%;
+    z-index: 1;
 }
 
 .links{
@@ -324,7 +324,7 @@ body{
 
 .m{
     position: absolute;
-    left: 38%;
+    left: 30%;
     top: 10%;
     font-size: 5em;
     color: white;
@@ -342,7 +342,7 @@ body{
 
 
 
-/* Box Arraial do Cabo */
+/* Box Nome */
 .box1{
     position: absolute;
     display: flex;
@@ -501,6 +501,7 @@ body{
     display: flex;
     top: 2%;
     left: 5%;
+    z-index: 1;
 }
 
 .links{
@@ -508,7 +509,7 @@ body{
     top: 30%;
     color: white;
     font-family: 'Gotu';
-    font-size: 1em;
+    font-size: 1.6em;
 }
 
 .a1{
@@ -559,7 +560,7 @@ body{
     position: absolute;
     left: 30%;
     top: 13%;
-    font-size: 5em;
+    font-size: 5.5em;
     color: white;
     font-family: 'Gotu';
 }
@@ -574,8 +575,8 @@ body{
     background-color: #005E93;
     top: 30%;
     left: 6%;
-    width: 20%;
-    height: 55%;
+    width: 30%;
+    height: 35%;
     border-radius: 5%; 
 }
 .box3{
@@ -584,8 +585,8 @@ body{
     background-color: #005E93;
     top: 30%;
     left: 37%;
-    width: 20%;
-    height: 55%;
+    width: 30%;
+    height: 35%;
     border-radius: 5%; 
 }
 
@@ -595,13 +596,15 @@ body{
     background-color: #005E93;
     top: 30%;
     left: 68%;
-    width: 20%;
-    height: 55%;
+    width: 30%;
+    height: 35%;
     border-radius: 5%; 
 }
 .img1{
     position: absolute;
     border-radius: 50%;
+    width:148px;
+    height:146px;
     left: 20%;
     top: 10%;
 }
@@ -623,7 +626,7 @@ body{
     top: 45%;
     color: white;
     font-family: 'Gotu';
-    font-size: 1.5em ;
+    font-size: 2em ;
     text-align: center;
 }
 .info{
@@ -634,7 +637,7 @@ body{
     text-align: center;
     color: white;
     font-family: 'Gotu';
-    font-size: 1em ;
+    font-size: 1.5em ;
     text-align: center;
 }
 .info2{
@@ -644,7 +647,7 @@ body{
     text-align: center;
     color: white;
     font-family: 'Gotu';
-    font-size: 1em ;
+    font-size: 1.5em ;
     text-align: center;
 }
 .link1{
@@ -676,15 +679,15 @@ body{
     background-color:#00BCCD;
     border: 1.2px solid #00BCCD;
     border-radius: 10px;
-    height: 7%;
-    width: 15%;
+    height: 3%;
+    width: 25%;
     color:black;
     list-style: none;
     font-weight: bold;
     position: absolute;
     display: flex;
-    top: 15%;
-    left: 83%;
+    top: 20%;
+    left: 73%;
      
 }
 .gh{
@@ -694,6 +697,7 @@ body{
     position: absolute;
     top: 25%;
     left: 7%;
+    font-size:2em;
 }
 }
 @media screen and (max-width:768px){
@@ -726,6 +730,7 @@ body{
     display: flex;
     top: 2%;
     left: 5%;
+    z-index: 1;
 }
 
 .links{
@@ -733,7 +738,7 @@ body{
     top: 30%;
     color: white;
     font-family: 'Gotu';
-    font-size: 0.8em;
+    font-size: 1.2em;
 }
 
 .a1{
@@ -800,7 +805,7 @@ body{
     top: 30%;
     left:15%;
     width: 25%;
-    height: 60%;
+    height: 40%;
     border-radius: 5%; 
 }
 .box3{
@@ -810,7 +815,7 @@ body{
     top: 30%;
     left: 57%;
     width: 27%;
-    height: 60%;
+    height: 40%;
     border-radius: 5%; 
 }
 
@@ -818,10 +823,10 @@ body{
     position: absolute;
     display: flex;
     background-color: #005E93;
-    top: 100%;
+    top: 80%;
     left: 35%;
     width: 27%;
-    height: 60%;
+    height: 40%;
     border-radius: 5%; 
 }
 .img1{
@@ -901,15 +906,16 @@ body{
     background-color:#00BCCD;
     border: 1.2px solid #00BCCD;
     border-radius: 10px;
-    height: 10%;
-    width: 15%;
+    height: 5%;
+    width: 35%;
     color:black;
     list-style: none;
     font-weight: bold;
     position: absolute;
     display: flex;
-    top: 15%;
-    left: 83%;
+    top: 20%;
+    left: 65%;
+    font-size: 0.6em;
      
 }
 .gh{
@@ -951,6 +957,7 @@ body{
     display: flex;
     top: 0%;
     left: 0%;
+    z-index: 1;
 }
 
 .links{
@@ -958,7 +965,7 @@ body{
     top: 30%;
     color: white;
     font-family: 'Gotu';
-    font-size: 0.6em;
+    font-size: 0.8em;
 }
 
 .a1{
@@ -1007,9 +1014,9 @@ body{
 
 .m{
     position: absolute;
-    left: 25%;
+    left: 15%;
     top: 10%;
-    font-size: 2.5em;
+    font-size: 4em;
     color: white;
     font-family: 'Gotu';
 }
@@ -1127,7 +1134,7 @@ body{
     background-color:#00BCCD;
     border: 1.2px solid #00BCCD;
     border-radius: 10px;
-    height: 10%;
+    height: 15%;
     width: 23%;
     color:black;
     list-style: none;
